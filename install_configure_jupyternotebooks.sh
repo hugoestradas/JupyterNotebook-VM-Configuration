@@ -6,6 +6,22 @@ sudo -H pip3 install jupyter
 sudo -h pip3 install jupyterthemes
 sudo -H pip3 install --upgrade jupyterthemes
 pip install jupyter
+sudo -H pip3 install nbresuse
+jupyter serverextension enable --py nbresuse --sys-prefix
+sudo jupyter serverextension enable --py nbresuse --sys-prefix
+sudo jupyter nbextension install --py nbresuse --sys-prefix
+sudo jupyter nbextension enable --py nbresuse --sys-prefix
+sudo -H pip3 install ipyparallel
+sudo -H pip3 install pandas
+sudo -H pip3 install  geopandas
+sudo -H pip3 install numpy
+sudo -H pip3 install scipy
+sudo -H pip3 install matplotlib
+sudo -H pip3 install seaborn
+sudo -H pip3 install tensorflow
+sudo -H pip3 install keras
+sudo -H pip3 install statsmodels
+sudo -H pip3 install plotly
 echo "In the following file edit the next lines:"
 echo "c.Notebook.allow_origin = '*'"
 echo "c.Notebook.App.ip = '0.0.0.0'"
