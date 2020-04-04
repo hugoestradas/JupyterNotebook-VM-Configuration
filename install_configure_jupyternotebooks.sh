@@ -22,6 +22,7 @@ sudo -H pip3 install tensorflow
 sudo -H pip3 install keras
 sudo -H pip3 install statsmodels
 sudo -H pip3 install plotly
+sudo -H pip3 install descartes
 echo "In the following file edit the next lines:"
 echo "c.Notebook.allow_origin = '*'"
 echo "c.Notebook.App.ip = '0.0.0.0'"
