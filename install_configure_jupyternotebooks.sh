@@ -14,4 +14,5 @@ jupyter notebook --generate-config
 sudo vim /home/$USER/.jupyter/jupyter_notebook_config.py
 read -p "Now create a password:"
 jupyter notebook password
+jt -t monokai -f fira -fs 13 -nf ptsans -nfs 11 -N -kl -cursw 5 -cursc r -cellw 95% -T
 jupyter notebook
